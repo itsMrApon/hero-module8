@@ -1,0 +1,32 @@
+.container {
+  border: 3px dotted green;
+  display: flex;
+  height: 500px;
+  /* box horizentali(right lefta) sorate justify use hoy */
+  /* justify-content: center; */
+  /* justify-content: end; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  
+  /* veritcaly(upore niche) sorate align */
+  /* align-items: flex-start; */
+  /* align-items: center; */
+  /* align-items: flex-end; */
+  align-items: stretch;
+
+  
+}
+.box {
+  width: 200px;
+  /* height: 200px; */
+  border: 3px dashed rebeccapurple;
+  font-size: 3em;
+}
+#box-1{
+  order: 2;
+}
+#box-2{
+  order: 1;
+  flex-grow: 1;
+}

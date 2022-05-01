@@ -1,0 +1,30 @@
+.main-container {
+  display: flex;
+  /* responsive er jonno wrap use kora hoy */
+  flex-wrap: wrap;
+
+}
+.food {
+  border: 3px solid rosybrown;
+  width: 300px;
+  margin: 10px;
+}
+.food img {
+  width: 50%;
+}
+/* plan css dia responsive banate media use hoy */
+
+@media (max-width: 900px) {
+  .food{
+    background-color: brown;
+    margin-bottom: 20px;
+  }
+  .manu-container {
+    flex-direction: column;
+  }
+}
+@media (min-width:1100px) {
+  .food{
+    background-color: blueviolet;
+  }
+}

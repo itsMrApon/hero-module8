@@ -1,0 +1,22 @@
+.calander {
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 2em repeat(5, 1fr);
+  grid-gap: 1em;
+}
+
+.date, .day {
+  background-color: bisque;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.other-month, .day {
+  background-color: rosybrown;
+}
+.day {
+  font-size: 1.5em;
+}

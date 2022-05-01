@@ -1,0 +1,10 @@
+.grid-contatiner {
+  display: grid;
+  /* grid-template-columns: 200px 200px 200px; */
+  grid-template-columns: repeat(4, 1fr) 2fr;
+  grid-gap: 40px 10px;
+}
+.grid-cell {
+  border: 1px solid slategrey;
+  font-size: 1em;
+}
